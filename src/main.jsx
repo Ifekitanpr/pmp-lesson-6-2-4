@@ -158,10 +158,10 @@ const quizzes = {
     question:
       'Scenario: Three months after a scope change is formally approved, a project manager notices that status reports keep showing a large, growing schedule variance. Frustrated by how this looks to the sponsor, the project manager quietly adjusts the schedule baseline on their own to make the numbers look better, without going back to the governance body that approved the original change. What is the issue with this action?',
     answers: [
-      'There is no issue — project managers are expected to keep variance numbers looking reasonable',
-      'Re-baselining requires the same governance authority that approved the change — a PM adjusting the baseline unilaterally, especially to improve how numbers look, bypasses that authority',
-      'The issue is that re-baselining should have happened immediately upon approval, not three months later, regardless of who approves it',
-      'There is no issue, since re-baselining is a routine administrative task that doesn’t require approval'
+      "There is no issue — project managers are expected to keep variance numbers looking reasonable",
+      "Re-baselining requires the same governance authority that approved the change",
+      "The issue is that re-baselining should have happened immediately upon approval, not three months later, regardless of who approves it",
+      "There is no issue, since re-baselining is a routine administrative task that doesn’t require approval",
     ],
     correct: 1,
     good: 'Correct! Re-baselining isn’t a PM’s unilateral administrative choice — it requires the same governance authority that approved the underlying change, precisely because adjusting a baseline to make variance "look better" is exactly the kind of manipulation that authority exists to prevent.',
@@ -171,12 +171,12 @@ const quizzes = {
     question:
       'Scenario: A significant, costly change is approved partway through a project. The project manager plans to document the reasons for the change and what could have been done differently, but decides to wait until project closure to add anything to the Lessons Learned Register, reasoning that "we’ll capture everything at the end anyway." What is the drawback of this approach?',
     answers: [
-      'There is no drawback — lessons learned are always meant to be captured only at closure',
-      'Waiting until closure means the lesson isn’t available to help the current team or other projects while the change is still fresh and relevant — capturing it during the project makes it useful now, not just historically',
-      'The drawback is that the change itself should have been prevented, which is a separate issue from when lessons are recorded',
-      'There is no drawback, since a Lessons Learned Register only has value once a project is fully closed'
+      "There is no drawback — lessons learned are always meant to be captured only at closure",
+      "The drawback is that the change itself should have been prevented, which is a separate issue from when lessons are recorded",
+      "Capture the lesson now so current and other teams can use it",
+      "There is no drawback, since a Lessons Learned Register only has value once a project is fully closed",
     ],
-    correct: 1,
+    correct: 2,
     good: 'Correct! Capturing significant lessons during the project — not just at closure — is what makes them actually useful to the current team and to other projects happening at the same time, rather than becoming a historical record nobody can act on until it’s too late.',
     bad: 'Reconsider — this isn’t about whether the change should have been prevented, and a Lessons Learned Register that’s only useful at closure misses most of its value; capturing it during the project is exactly the point.'
   }
